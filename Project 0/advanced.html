@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+		<link href="styles.css" rel="stylesheet">
+		<style>
+			table,td{padding: 5px;
+			}
+		</style>
+    </head>
+    <body>
+		<div class="tabs">
+			<img src="googlelogo.png", alt="Google Logo" width="74" align="left">
+			<a href=index.html>Google Search</a>
+		</div>
+		<p class="advsearchhead">Advanced Search</p>
+		<hr noshade size=1 color=gray>
+		<div>
+			<form action="https://google.com/search"> 				
+				<div class="advsearch">
+					<p style="font-family:sans-serif; margin-left:10px;">Find pages with...
+						<div>
+							<table>
+								<tr>
+									<td class="advsearchlab">all these words:</td>
+									<td><input class="advinput" name="as_q"></td>
+								</tr>
+								<tr>
+									<td class="advsearchlab">this exact word or phrase:</td>
+									<td><input class="advinput" name="as_epq"></td>
+								</tr>
+								<tr>
+									<td class="advsearchlab">any of these words:</td>
+									<td><input class="advinput" name="as_oq"></td>
+								</tr>
+								<tr>
+									<td class="advsearchlab">none of these words:</td>
+									<td><input class="advinput" name="as_eq"></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td align=right style="padding-right:0"><input type="submit" value="Advanced Search" class="advbutton" name="" style="font-color:white;"></td>
+								</tr>
+							</table>
+						</div>
+					</p>
+				</div>
+			</form>
+		</div>
+    </body>
+</html>

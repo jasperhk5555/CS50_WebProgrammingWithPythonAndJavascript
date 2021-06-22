@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Image Search</title>
 		<link href="styles.css" rel="stylesheet">
     </head>
     <body>
 		<div class="tabs">
-			<a href=image.html>Google Image Search</a>
-			<a href=advanced.html>Google Advanced Search</a>
+			<a href=index.html>Google Search</a>
 		</div>
         <center>
 			<div>
@@ -16,14 +15,12 @@
 			<div>
 				<form action="https://google.com/search"> 				
 					<div>
+						<input type="hidden" name="tbm" value="isch">
 						<input class="search" name="q" type="text">
 					</div>
-					<br/>
-					<br/>
+					<br>
 					<div>
-						<input type="submit" value="Google Search" class="submitbutton">
-						
-						<input type="submit" value="I'm Feeling Lucky" name="btnI" class="submitbutton">
+						<input type="submit" value="Google Image Search" class="submitbutton" name="">
 					</div>
 				</form>
 				

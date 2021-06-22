@@ -1,0 +1,20 @@
+.tabs {text-align:right;
+}
+.search{background:#fff;display:flex;border:1px solid #dfe1e5;box-shadow:none;border-radius:24px;z-index:3;height:44px;margin:0 auto;width:482px;width:auto;
+}
+.submitbutton{background-color:#f8f9fa;border:1px solid #f8f9fa;border-radius:4px;color:#3c4043;font-family:arial,sans-serif;font-size:14px;margin:11px 4px;padding:0 16px;line-height:27px;height:36px;min-width:54px;text-align:center;cursor:pointer;user-select:none;
+}
+.submitbutton:hover{box-shadow:0 1px 1px rgba(0,0,0,.1);background-color:#f8f9fa;border:1px solid #dadce0;color:#202124}.lJ9FBc input[type="submit"]:focus{border:1px solid #4285f4;outline:none;
+}
+.advsearchhead{text-align:left; color:red;font-family:arial; margin-left:10px; font-size:20px;
+}
+.advsearch{text-align:left;
+}
+.advsearchlab{font-family:sans-serif; min-width:167px;font-size:16px;min-height:42px;color:#333;
+}
+.advinput{border:1px solid #d9d9d9;border-top:1px solid #c0c0c0;font-size:13px;height:25px;padding:1px 8px;
+}
+.advbutton{border-radius:2px;cursor:default;font-size:11px;font-weight:bold;text-align:center;white-space:nowrap;height:27px;line-height:27px;min-width:54px;border:none;padding:0 8px; color:white; background-color:#4889f0;
+}
+.advbutton:hover{box-shadow:0 1px 1px rgba(0,0,0,.1);
+}
